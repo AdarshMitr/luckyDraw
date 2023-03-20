@@ -90,7 +90,7 @@ body {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     .header h1 {
         font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
         text-align: center;
@@ -113,57 +113,57 @@ body {
         box-sizing: border-box;
         border: 5px solid rgb(17, 166, 253);
         margin-top: 100px;
-        padding: 20px;
+        padding: 10px;
       }
       
       #itm1 {
         display: flex;
-        height: 50px;
-        width: 50px;
+        height: 30px;
+        width: 30px;
         border: 2px solid rgb(91, 115, 219);
-        border-radius: 15px;
-        font-size: 30px;
+        border-radius: 8px;
+        font-size: 20px;
         text-align: center;
       }
       
       #itm2 {
         display: flex;
-        height: 50px;
-        width: 50px;
+        height: 30px;
+        width: 30px;
         border: 2px solid rgb(91, 115, 219);
-        border-radius: 15px;
-        font-size: 30px;
+        border-radius: 8px;
+        font-size: 20px;
         text-align: center;
       }
       
       
       #itm3 {
         display: flex;
-        height: 50px;
-        width: 50px;
+        height: 30px;
+        width: 30px;
         border: 2px solid rgb(91, 115, 219);
-        border-radius: 15px;
-        font-size: 30px;
+        border-radius: 8px;
+        font-size: 20px;
         text-align: center;
       }
       
       
       #btn {
-        
+      
         margin: 10px 40px;
-        width: 90px;
-        height: 50px;
-        border-radius: 50px;
+        width: 80px;
+        height: 20px;
+        border-radius: 10px;
         border-color: rgb(211, 230, 106);
         background-color: rgb(255, 38, 0);
-        font-size: 15px;
+        font-size: 10px;
         
       }
       
       #btn:hover {
         background-color: green;
         cursor: pointer;
-        font-size: 17px;
+        font-size: 12px;
       }
     
 }
