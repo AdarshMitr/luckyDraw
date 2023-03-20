@@ -94,7 +94,7 @@ body {
     .header h1 {
         font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
         text-align: center;
-        margin: 30px;
+        margin: 50px;
         font-size: 20px;
         
       }
@@ -112,8 +112,8 @@ body {
         justify-content:center;
         box-sizing: border-box;
         border: 5px solid rgb(17, 166, 253);
-        margin: 40px;
-        padding: 30px;
+        margin-top: 100px;
+        padding: 20px;
       }
       
       #itm1 {
