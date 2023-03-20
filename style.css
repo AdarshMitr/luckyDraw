@@ -87,3 +87,83 @@ body {
   cursor: pointer;
   font-size: 25px;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .header h1 {
+        font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+        text-align: center;
+        margin: 30px;
+        font-size: 20px;
+        
+      }
+      
+      .header h1:hover{
+          background-color: rgb(122, 238, 55);
+          color: rgb(75, 38, 14);
+          font-size: 24px;
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+        box-sizing: border-box;
+        border: 5px solid rgb(17, 166, 253);
+        margin: 40px;
+        padding: 30px;
+      }
+      
+      #itm1 {
+        display: flex;
+        height: 50px;
+        width: 50px;
+        border: 2px solid rgb(91, 115, 219);
+        border-radius: 15px;
+        font-size: 30px;
+        text-align: center;
+      }
+      
+      #itm2 {
+        display: flex;
+        height: 50px;
+        width: 50px;
+        border: 2px solid rgb(91, 115, 219);
+        border-radius: 15px;
+        font-size: 30px;
+        text-align: center;
+      }
+      
+      
+      #itm3 {
+        display: flex;
+        height: 50px;
+        width: 50px;
+        border: 2px solid rgb(91, 115, 219);
+        border-radius: 15px;
+        font-size: 30px;
+        text-align: center;
+      }
+      
+      
+      #btn {
+        
+        margin: 10px 40px;
+        width: 90px;
+        height: 50px;
+        border-radius: 50px;
+        border-color: rgb(211, 230, 106);
+        background-color: rgb(255, 38, 0);
+        font-size: 15px;
+        
+      }
+      
+      #btn:hover {
+        background-color: green;
+        cursor: pointer;
+        font-size: 17px;
+      }
+    
+}
